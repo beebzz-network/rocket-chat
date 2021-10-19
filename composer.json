@@ -1,13 +1,17 @@
 {
 	"name": "beebzz-network/rocket-chat",
 	"description": "Rocket Chat REST API PHP Wrapper Library",
-	"keywords": ["rocketchat", "rest", "api"],
+	"keywords": [
+		"rocketchat",
+		"rest",
+		"api"
+	],
 	"homepage": "https://github.com/alekseykuleshov/rocket-chat",
 	"license": "MIT",
 	"minimum-stability": "stable",
 	"require": {
 		"php": ">=5.6.0",
-		"guzzlehttp/guzzle": "~6.0",
+		"guzzlehttp/guzzle": "~7.3",
 		"egulias/email-validator": "~2.0",
 		"doctrine/collections": "~1.0"
 	},
@@ -17,9 +21,13 @@
 		"friendsofphp/php-cs-fixer": "^2.16"
 	},
 	"autoload": {
-		"classmap": ["src/"]
+		"classmap": [
+			"src/"
+		]
 	},
 	"autoload-dev": {
-		"classmap": ["tests/"]
+		"classmap": [
+			"tests/"
+		]
 	}
 }
